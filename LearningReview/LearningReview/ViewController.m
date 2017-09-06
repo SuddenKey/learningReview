@@ -11,12 +11,20 @@
 #import "CAKeyframeAnimationViewController.h"
 #import "CATransitionViewController.h"
 #import "CASpringAnimationViewController.h"
+#import "CAAnimationGroupViewController.h"
+
+
+#import "UIViewCoreAnimationViewController.h"
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *myTableView;
 
 @property (nonatomic, strong) NSArray *dataArray;
 
+
+@property (nonatomic, strong) NSArray *typeArray;
+
+@property (nonatomic, strong) NSArray *uiviewAnimationArray;
 @end
 
 @implementation ViewController
@@ -36,7 +44,15 @@
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataArray.count;
+    if (section == 0) {
+        return self.dataArray.count;
+    } else {
+        return self.uiviewAnimationArray.count;
+    }
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return self.typeArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -45,7 +61,12 @@
     if (cell == nil) {
         cell =  [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
-    cell.textLabel.text = self.dataArray[indexPath.row];
+    if (indexPath.section == 0) {
+        cell.textLabel.text = self.dataArray[indexPath.row];
+    }
+    if (indexPath.section == 1) {
+        cell.textLabel.text = self.uiviewAnimationArray[indexPath.row];
+    }
     return cell;
 }
 
@@ -55,22 +76,36 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == 0) {
-        CoreAnimationViewController *coreVC = [[CoreAnimationViewController alloc] init];
-        [self.navigationController pushViewController:coreVC animated:YES];
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            CoreAnimationViewController *coreVC = [[CoreAnimationViewController alloc] init];
+            [self.navigationController pushViewController:coreVC animated:YES];
+        }
+        if (indexPath.row == 1) {
+            CAKeyframeAnimationViewController *coreVC = [[CAKeyframeAnimationViewController alloc] init];
+            [self.navigationController pushViewController:coreVC animated:YES];
+        }
+        if (indexPath.row == 2) {
+            CATransitionViewController *corevc = [[CATransitionViewController alloc] init];
+            [self.navigationController pushViewController:corevc animated:YES];
+        }
+        if (indexPath.row == 3) {
+            CASpringAnimationViewController *vc = [[CASpringAnimationViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+        if (indexPath.row == 4) {
+            CAAnimationGroupViewController *vc = [[CAAnimationGroupViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
     }
-    if (indexPath.row == 1) {
-        CAKeyframeAnimationViewController *coreVC = [[CAKeyframeAnimationViewController alloc] init];
-        [self.navigationController pushViewController:coreVC animated:YES];
+    
+    if (indexPath.section == 1) {
+        if (indexPath.row == 0) {
+            UIViewCoreAnimationViewController *vc = [[UIViewCoreAnimationViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
     }
-    if (indexPath.row == 2) {
-        CATransitionViewController *corevc = [[CATransitionViewController alloc] init];
-        [self.navigationController pushViewController:corevc animated:YES];
-    }
-    if (indexPath.row == 3) {
-        CASpringAnimationViewController *vc = [[CASpringAnimationViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -80,10 +115,23 @@
 
 - (NSArray *)dataArray {
     if (_dataArray == nil) {
-        _dataArray = @[@"CoreAnimation", @"CAKeyframeAnimation", @"CATransition", @"CASpringAnimation"];
+        _dataArray = @[@"CoreAnimation", @"CAKeyframeAnimation", @"CATransition", @"CASpringAnimation", @"CAAnimationGroup"];
     }
     return _dataArray;
 }
 
+- (NSArray *)typeArray {
+    if (_typeArray == nil) {
+        _typeArray = @[@"CoreAnimation", @"UIViewCoreAnimation"];
+    }
+    return _typeArray;
+}
+
+- (NSArray *)uiviewAnimationArray {
+    if (_uiviewAnimationArray == nil) {
+        _uiviewAnimationArray = @[@"uivewCoreAnimation"];
+    }
+    return _uiviewAnimationArray;
+}
 
 @end

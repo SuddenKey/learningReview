@@ -1,0 +1,39 @@
+UIView动画实质上是对Core Animation的封装，提供简洁的动画接口。
+UIView动画可以设置的动画属性有:
+1、大小变化(frame)
+2、拉伸变化(bounds)
+3、中心位置(center)
+4、旋转(transform)
+5、透明度(alpha)
+6、背景颜色(backgroundColor)
+7、拉伸内容(contentStretch)
+
+
+结束动画标记
+[UIView commitAnimation];
+
+动画参数的设置方法
+//动画持续时间
+[UIView setAnimationDuration:(NSTimeInterval)]
+//动画的代理对象
+[UIView setAnimationDelegate:(nullable id)];
+//设置动画将开始时代理对象执行的sel
+[UIView setAnimationWillStartSelector:(nullable SEL)];
+//设置动画结束时代理对象执行的sel
+[UIView setAnimationDidStopSelector:(nullable SEL)];
+//设置动画延迟执行的时间
+[UIView setAnimationDelay:(NSTimeInterval)];
+//设置动画的重复次数
+[UIView setAnimationRepeatCount:(float)];
+
+//设置动画的曲线
+[UIView setAnimationCurve:(UIViewAnimationCurve)];
+
+//设置是否从当前状态开始播放动画
+[UIView setAnimationBeginsFromCurrentState:YES];
+
+//是否禁用动画效果
+[UIView setAnimationEnabled:(BOOL)];
+
+//设置视图的过渡效果
+[UIView setAnimationTransition:(UIViewAnimationTransition) forView:(nonnull UIView *) cache:(BOOL)];

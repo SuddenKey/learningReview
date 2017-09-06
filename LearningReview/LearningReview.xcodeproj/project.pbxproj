@@ -30,6 +30,15 @@
 		A0812EA41F5EA1C400E0F51D /* CASpringAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0812EA21F5EA1C400E0F51D /* CASpringAnimationViewController.xib */; };
 		A0812EA61F5EA1D000E0F51D /* CASpringAnimation in Resources */ = {isa = PBXBuildFile; fileRef = A0812EA51F5EA1D000E0F51D /* CASpringAnimation */; };
 		A0812EA91F5EA6E700E0F51D /* coreAnimation in Resources */ = {isa = PBXBuildFile; fileRef = A0812EA81F5EA6E700E0F51D /* coreAnimation */; };
+		A0812EAE1F5F7D9500E0F51D /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0812EAC1F5F7D9500E0F51D /* CAAnimationGroupViewController.m */; };
+		A0812EAF1F5F7D9500E0F51D /* CAAnimationGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0812EAD1F5F7D9500E0F51D /* CAAnimationGroupViewController.xib */; };
+		A0812EB11F5F7DA600E0F51D /* CAAnimationGroup in Resources */ = {isa = PBXBuildFile; fileRef = A0812EB01F5F7DA600E0F51D /* CAAnimationGroup */; };
+		A0812EB61F5FC7F200E0F51D /* CATransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0812EB41F5FC7F200E0F51D /* CATransactionViewController.m */; };
+		A0812EB71F5FC7F200E0F51D /* CATransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0812EB51F5FC7F200E0F51D /* CATransactionViewController.xib */; };
+		A0812EB91F5FC80300E0F51D /* CATransaction in Resources */ = {isa = PBXBuildFile; fileRef = A0812EB81F5FC80300E0F51D /* CATransaction */; };
+		A0812EBE1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0812EBC1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m */; };
+		A0812EBF1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0812EBD1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib */; };
+		A0812EC11F5FCB7500E0F51D /* UIViewAnimation in Resources */ = {isa = PBXBuildFile; fileRef = A0812EC01F5FCB7500E0F51D /* UIViewAnimation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +94,18 @@
 		A0812EA21F5EA1C400E0F51D /* CASpringAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CASpringAnimationViewController.xib; sourceTree = "<group>"; };
 		A0812EA51F5EA1D000E0F51D /* CASpringAnimation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CASpringAnimation; sourceTree = "<group>"; };
 		A0812EA81F5EA6E700E0F51D /* coreAnimation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coreAnimation; sourceTree = "<group>"; };
+		A0812EAB1F5F7D9500E0F51D /* CAAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupViewController.h; sourceTree = "<group>"; };
+		A0812EAC1F5F7D9500E0F51D /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
+		A0812EAD1F5F7D9500E0F51D /* CAAnimationGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationGroupViewController.xib; sourceTree = "<group>"; };
+		A0812EB01F5F7DA600E0F51D /* CAAnimationGroup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CAAnimationGroup; sourceTree = "<group>"; };
+		A0812EB31F5FC7F200E0F51D /* CATransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransactionViewController.h; sourceTree = "<group>"; };
+		A0812EB41F5FC7F200E0F51D /* CATransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransactionViewController.m; sourceTree = "<group>"; };
+		A0812EB51F5FC7F200E0F51D /* CATransactionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATransactionViewController.xib; sourceTree = "<group>"; };
+		A0812EB81F5FC80300E0F51D /* CATransaction */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CATransaction; sourceTree = "<group>"; };
+		A0812EBB1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewCoreAnimationViewController.h; sourceTree = "<group>"; };
+		A0812EBC1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewCoreAnimationViewController.m; sourceTree = "<group>"; };
+		A0812EBD1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIViewCoreAnimationViewController.xib; sourceTree = "<group>"; };
+		A0812EC01F5FCB7500E0F51D /* UIViewAnimation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIViewAnimation; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +156,7 @@
 		A0812E4F1F5E432B00E0F51D /* LearningReview */ = {
 			isa = PBXGroup;
 			children = (
+				A0812EBA1F5FCB2C00E0F51D /* UIView动画 */,
 				A0812EA71F5EA6CF00E0F51D /* coreAnimation */,
 				A0812E531F5E432C00E0F51D /* AppDelegate.h */,
 				A0812E541F5E432C00E0F51D /* AppDelegate.m */,
@@ -225,12 +247,47 @@
 			isa = PBXGroup;
 			children = (
 				A0812EA81F5EA6E700E0F51D /* coreAnimation */,
+				A0812EB21F5FC7E200E0F51D /* CATransaction */,
+				A0812EAA1F5F7D8500E0F51D /* CAAnimationGroup */,
 				A0812E9F1F5EA1A900E0F51D /* CASpringAnimation */,
 				A0812E931F5E97A700E0F51D /* CATransition */,
 				A0812E891F5E89D800E0F51D /* CAKeyframeAnimation */,
 				A0812E831F5E434500E0F51D /* CABasicAnimation */,
 			);
 			name = coreAnimation;
+			sourceTree = "<group>";
+		};
+		A0812EAA1F5F7D8500E0F51D /* CAAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				A0812EAB1F5F7D9500E0F51D /* CAAnimationGroupViewController.h */,
+				A0812EAC1F5F7D9500E0F51D /* CAAnimationGroupViewController.m */,
+				A0812EAD1F5F7D9500E0F51D /* CAAnimationGroupViewController.xib */,
+				A0812EB01F5F7DA600E0F51D /* CAAnimationGroup */,
+			);
+			name = CAAnimationGroup;
+			sourceTree = "<group>";
+		};
+		A0812EB21F5FC7E200E0F51D /* CATransaction */ = {
+			isa = PBXGroup;
+			children = (
+				A0812EB31F5FC7F200E0F51D /* CATransactionViewController.h */,
+				A0812EB41F5FC7F200E0F51D /* CATransactionViewController.m */,
+				A0812EB81F5FC80300E0F51D /* CATransaction */,
+				A0812EB51F5FC7F200E0F51D /* CATransactionViewController.xib */,
+			);
+			name = CATransaction;
+			sourceTree = "<group>";
+		};
+		A0812EBA1F5FCB2C00E0F51D /* UIView动画 */ = {
+			isa = PBXGroup;
+			children = (
+				A0812EBB1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.h */,
+				A0812EBC1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m */,
+				A0812EC01F5FCB7500E0F51D /* UIViewAnimation */,
+				A0812EBD1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib */,
+			);
+			name = "UIView动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,11 +400,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0812E881F5E439400E0F51D /* CoreAnimationViewController.xib in Resources */,
+				A0812EB11F5F7DA600E0F51D /* CAAnimationGroup in Resources */,
 				A0812E8E1F5E89F300E0F51D /* CAKeyframeAnimationViewController.xib in Resources */,
 				A0812EA91F5EA6E700E0F51D /* coreAnimation in Resources */,
+				A0812EB71F5FC7F200E0F51D /* CATransactionViewController.xib in Resources */,
 				A0812E9C1F5E9E5200E0F51D /* text.png in Resources */,
 				A0812E901F5E8DD600E0F51D /* CABasicAnimation in Resources */,
 				A0812E601F5E432C00E0F51D /* LaunchScreen.storyboard in Resources */,
+				A0812EC11F5FCB7500E0F51D /* UIViewAnimation in Resources */,
 				A0812E921F5E8E5C00E0F51D /* CAKeyframeAnimation in Resources */,
 				A0812E981F5E97C900E0F51D /* CATransitionViewController.xib in Resources */,
 				A0812E9E1F5E9ED200E0F51D /* watermark.png in Resources */,
@@ -355,7 +415,10 @@
 				A0812E9A1F5E97D400E0F51D /* CATransition in Resources */,
 				A0812E5D1F5E432C00E0F51D /* Assets.xcassets in Resources */,
 				A0812EA41F5EA1C400E0F51D /* CASpringAnimationViewController.xib in Resources */,
+				A0812EAF1F5F7D9500E0F51D /* CAAnimationGroupViewController.xib in Resources */,
+				A0812EBF1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib in Resources */,
 				A0812E5B1F5E432C00E0F51D /* Main.storyboard in Resources */,
+				A0812EB91F5FC80300E0F51D /* CATransaction in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,13 +443,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0812EB61F5FC7F200E0F51D /* CATransactionViewController.m in Sources */,
 				A0812E871F5E439400E0F51D /* CoreAnimationViewController.m in Sources */,
 				A0812E581F5E432C00E0F51D /* ViewController.m in Sources */,
 				A0812E551F5E432C00E0F51D /* AppDelegate.m in Sources */,
 				A0812E8D1F5E89F300E0F51D /* CAKeyframeAnimationViewController.m in Sources */,
 				A0812E521F5E432C00E0F51D /* main.m in Sources */,
 				A0812E971F5E97C900E0F51D /* CATransitionViewController.m in Sources */,
+				A0812EAE1F5F7D9500E0F51D /* CAAnimationGroupViewController.m in Sources */,
 				A0812EA31F5EA1C400E0F51D /* CASpringAnimationViewController.m in Sources */,
+				A0812EBE1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +692,7 @@
 				A0812E7C1F5E432D00E0F51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0812E7D1F5E432D00E0F51D /* Build configuration list for PBXNativeTarget "LearningReviewTests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +701,7 @@
 				A0812E7F1F5E432D00E0F51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0812E801F5E432D00E0F51D /* Build configuration list for PBXNativeTarget "LearningReviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -642,6 +710,7 @@
 				A0812E821F5E432D00E0F51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
