@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CASpringAnimationViewController">
+            <connections>
+                <outlet property="blueLabel" destination="lfk-eG-KEU" id="VjZ-ZJ-y4B"/>
+                <outlet property="skyBlueLabel" destination="HHh-6i-KOL" id="yr6-mz-Ioo"/>
+                <outlet property="titleImage" destination="HOb-8h-iOW" id="p0W-8H-nIC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfk-eG-KEU">
+                    <rect key="frame" x="22" y="296" width="94" height="128"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Xoy-ji-KU0"/>
+                        <constraint firstAttribute="width" constant="94" id="nCZ-NZ-wWM"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHh-6i-KOL">
+                    <rect key="frame" x="258" y="296" width="94" height="128"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="KO6-6Y-225"/>
+                        <constraint firstAttribute="height" constant="128" id="W1g-4W-mKy"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLR-nN-GGP">
+                    <rect key="frame" x="88" y="604" width="210" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="TNy-yI-K6i"/>
+                    </constraints>
+                    <state key="normal" title="click">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="3DO-E2-VVw"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text.png" translatesAutoresizingMaskIntoConstraints="NO" id="HOb-8h-iOW">
+                    <rect key="frame" x="67" y="91" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Dj2-Vs-qPq"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HOb-8h-iOW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="91" id="HKp-My-yjV"/>
+                <constraint firstItem="HOb-8h-iOW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="67" id="Hgq-Zr-eJG"/>
+                <constraint firstItem="HHh-6i-KOL" firstAttribute="top" secondItem="HOb-8h-iOW" secondAttribute="bottom" constant="77" id="NXU-qZ-clQ"/>
+                <constraint firstAttribute="bottom" secondItem="VLR-nN-GGP" secondAttribute="bottom" constant="33" id="PbA-GC-25N"/>
+                <constraint firstAttribute="trailing" secondItem="HOb-8h-iOW" secondAttribute="trailing" constant="68" id="gog-l9-CIM"/>
+                <constraint firstItem="lfk-eG-KEU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="iY4-Yz-gK7"/>
+                <constraint firstAttribute="trailing" secondItem="VLR-nN-GGP" secondAttribute="trailing" constant="77" id="oHg-YB-nf1"/>
+                <constraint firstItem="VLR-nN-GGP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="88" id="ox7-wQ-ZQT"/>
+                <constraint firstItem="lfk-eG-KEU" firstAttribute="top" secondItem="HOb-8h-iOW" secondAttribute="bottom" constant="77" id="sTn-ms-VX9"/>
+                <constraint firstAttribute="trailing" secondItem="HHh-6i-KOL" secondAttribute="trailing" constant="23" id="xSs-wK-QII"/>
+            </constraints>
+            <point key="canvasLocation" x="-17" y="41"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="text.png" width="221" height="314"/>
+    </resources>
+</document>
