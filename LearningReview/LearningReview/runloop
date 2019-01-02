@@ -1,0 +1,20 @@
+保持程序持续运行，程序一启动就会开一个主线程，主线程一开起来就会跑一个主线程对应的RunLoop,RunLoop保证主线程不会被销毁，也就保证了程序的持续运行
+处理App中的各种事件（比如：触摸事件，定时器事件，Selector事件等）
+节省CPU资源，提高程序性能，程序运行起来时，当什么操作都没有做的时候，RunLoop就告诉CPU，现在没有事情做，我要去休息，这时CPU就会将其资源释放出来去做其他的事情，当有事情做的时候RunLoop就会立马起来去做事情
+我们先通过API内一张图片来简单看一下RunLoop内部运行原理
+
+RunLoop和线程间的关系
+每条线程都有唯一的一个与之对应的RunLoop对象
+RunLoop保存在一个全局的Dictionary里，线程作为key,RunLoop作为value
+主线程的RunLoop已经自动创建好了，子线程的RunLoop需要主动创建
+RunLoop在第一次获取时创建，在线程结束时销毁
+
+系统默认注册的5个Mode:
+kCFRunLoopDefaultMode：App的默认Mode，通常主线程是在这个Mode下运行
+UITrackingRunLoopMode：界面跟踪 Mode，用于 ScrollView 追踪触摸滑动，保证界面滑动时不受其他 Mode 影响
+UIInitializationRunLoopMode: 在刚启动 App 时第进入的第一个 Mode，启动完成后就不再使用，会切换到kCFRunLoopDefaultMode
+GSEventReceiveRunLoopMode: 接受系统事件的内部 Mode，通常用不到
+kCFRunLoopCommonModes: 这是一个占位用的Mode，作为标记kCFRunLoopDefaultMode和UITrackingRunLoopMode用，并不是一种真正的Mode
+
+
+

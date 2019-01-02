@@ -1,0 +1,11 @@
+
+//block 有三种类型
+//    __NSGlobalBlock__ （ _NSConcreteGlobalBlock ）
+//    __NSStackBlock__ （ _NSConcreteStackBlock ）
+//    __NSMallocBlock__ （ _NSConcreteMallocBlock ）
+
+但是我们上面提到过，上述代码转化为c++代码查看源码时却发现block的类型与打印出来的类型不一样，c++源码中三个block的isa指针全部都指向_NSConcreteStackBlock类型地址。
+我们可以猜测runtime运行时过程中也许对类型进行了转变。最终类型当然以runtime运行时类型也就是我们打印出的类型为准。
+
+
+

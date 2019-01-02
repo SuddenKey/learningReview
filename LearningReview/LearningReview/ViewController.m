@@ -13,8 +13,14 @@
 #import "CASpringAnimationViewController.h"
 #import "CAAnimationGroupViewController.h"
 
-
+#import "NSInvocationViewController.h"
 #import "UIViewCoreAnimationViewController.h"
+#import "BlockViewController.h"
+#import "CGContextRefViewController.h"
+
+#import "RunloopViewController.h"
+
+#import "SwizzMethondViewController.h"
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *myTableView;
@@ -78,8 +84,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            CoreAnimationViewController *coreVC = [[CoreAnimationViewController alloc] init];
-            [self.navigationController pushViewController:coreVC animated:YES];
+            SwizzMethondViewController *vc = [[SwizzMethondViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+
+//            CoreAnimationViewController *coreVC = [[CoreAnimationViewController alloc] init];
+//            [self.navigationController pushViewController:coreVC animated:YES];
         }
         if (indexPath.row == 1) {
             CAKeyframeAnimationViewController *coreVC = [[CAKeyframeAnimationViewController alloc] init];

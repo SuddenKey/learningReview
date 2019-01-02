@@ -8,7 +8,9 @@
 
 #import "CAAnimationGroupViewController.h"
 
-@interface CAAnimationGroupViewController ()
+@interface CAAnimationGroupViewController () {
+    NSLock *lock;
+}
 @property (weak, nonatomic) IBOutlet UIImageView *titleImageVI;
 @property (weak, nonatomic) IBOutlet UIView *blueLabel;
 @property (weak, nonatomic) IBOutlet UIView *skyBlue;
@@ -40,7 +42,10 @@
 }
 
 - (void)setGroupAnimation {
+    [lock lock];
     
+    
+    [lock unlock];
 }
 
 - (void)didReceiveMemoryWarning {

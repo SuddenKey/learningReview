@@ -39,6 +39,33 @@
 		A0812EBE1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0812EBC1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m */; };
 		A0812EBF1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0812EBD1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib */; };
 		A0812EC11F5FCB7500E0F51D /* UIViewAnimation in Resources */ = {isa = PBXBuildFile; fileRef = A0812EC01F5FCB7500E0F51D /* UIViewAnimation */; };
+		BD56929021AE2A8800253724 /* NSObject+performSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56928E21AE2A8800253724 /* NSObject+performSelector.m */; };
+		BD56929421AE2E6C00253724 /* CGContextRefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56929321AE2E6C00253724 /* CGContextRefViewController.m */; };
+		BD56929621AE2E7D00253724 /* CGContextRef in Resources */ = {isa = PBXBuildFile; fileRef = BD56929521AE2E7D00253724 /* CGContextRef */; };
+		BD56929921AE3F9D00253724 /* CGContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56929821AE3F9D00253724 /* CGContextView.m */; };
+		BD56929C21AF863600253724 /* BlockNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56929B21AF863600253724 /* BlockNSObject.m */; };
+		BD5692A021AF8DAD00253724 /* StructViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56929F21AF8DAD00253724 /* StructViewController.m */; };
+		BD5692A221AF8DBF00253724 /* Struct in Resources */ = {isa = PBXBuildFile; fileRef = BD5692A121AF8DBF00253724 /* Struct */; };
+		BD5692A521AF8E9200253724 /* Struct.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5692A421AF8E9200253724 /* Struct.m */; };
+		BD5692A921AFC03300253724 /* Object_NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5692A821AFC03300253724 /* Object_NSObject.m */; };
+		BD5692AB21AFC04700253724 /* Object_NSObject in Resources */ = {isa = PBXBuildFile; fileRef = BD5692AA21AFC04700253724 /* Object_NSObject */; };
+		BD5692AD21B0DA8600253724 /* block示意图.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692AC21B0DA8600253724 /* block示意图.png */; };
+		BD5692AF21B0E33D00253724 /* block变量捕获.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692AE21B0E33D00253724 /* block变量捕获.png */; };
+		BD5692B121B10D3A00253724 /* block本质 in Resources */ = {isa = PBXBuildFile; fileRef = BD5692B021B10D3900253724 /* block本质 */; };
+		BD5692B321B10F8D00253724 /* block存储位置.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692B221B10F8D00253724 /* block存储位置.png */; };
+		BD5692B521B1121B00253724 /* blcok类型判断.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692B421B1121B00253724 /* blcok类型判断.png */; };
+		BD5692B721B1157E00253724 /* blockCopy后的类型转换.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692B621B1157E00253724 /* blockCopy后的类型转换.png */; };
+		BD5692BD21B4D02300253724 /* RunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5692BC21B4D02300253724 /* RunloopViewController.m */; };
+		BD5692BF21B4D05900253724 /* runloop in Resources */ = {isa = PBXBuildFile; fileRef = BD5692BE21B4D05900253724 /* runloop */; };
+		BD5692D921B91A5700253724 /* runloop的管理方式.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692D821B91A5700253724 /* runloop的管理方式.png */; };
+		BD5692DB21B91AB900253724 /* runloop处理逻辑图.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5692DA21B91AB900253724 /* runloop处理逻辑图.png */; };
+		BD62E69421ACE14D009A22ED /* NSInvocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E69321ACE14D009A22ED /* NSInvocationViewController.m */; };
+		BD62E69F21ACEBB5009A22ED /* InvoPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E69E21ACEBB5009A22ED /* InvoPeople.m */; };
+		BD62E6A121ACF06F009A22ED /* NSInvocation in Resources */ = {isa = PBXBuildFile; fileRef = BD62E6A021ACF06F009A22ED /* NSInvocation */; };
+		BD62E6A521AD284E009A22ED /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E6A421AD284E009A22ED /* BlockViewController.m */; };
+		BDB8AF8821C341BF00E95DFC /* SwizzMethondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB8AF8721C341BF00E95DFC /* SwizzMethondViewController.m */; };
+		BDB8AF8D21C3422400E95DFC /* Methond_people.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB8AF8C21C3422400E95DFC /* Methond_people.m */; };
+		BDB8AF9021C3575900E95DFC /* Methond_bind.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB8AF8F21C3575900E95DFC /* Methond_bind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +133,47 @@
 		A0812EBC1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewCoreAnimationViewController.m; sourceTree = "<group>"; };
 		A0812EBD1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIViewCoreAnimationViewController.xib; sourceTree = "<group>"; };
 		A0812EC01F5FCB7500E0F51D /* UIViewAnimation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIViewAnimation; sourceTree = "<group>"; };
+		BD56928E21AE2A8800253724 /* NSObject+performSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelector.m"; sourceTree = "<group>"; };
+		BD56928F21AE2A8800253724 /* NSObject+performSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelector.h"; sourceTree = "<group>"; };
+		BD56929221AE2E6C00253724 /* CGContextRefViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGContextRefViewController.h; sourceTree = "<group>"; };
+		BD56929321AE2E6C00253724 /* CGContextRefViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextRefViewController.m; sourceTree = "<group>"; };
+		BD56929521AE2E7D00253724 /* CGContextRef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGContextRef; path = ../../../../../CGContextRef; sourceTree = "<group>"; };
+		BD56929721AE3F9D00253724 /* CGContextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGContextView.h; sourceTree = "<group>"; };
+		BD56929821AE3F9D00253724 /* CGContextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextView.m; sourceTree = "<group>"; };
+		BD56929A21AF863600253724 /* BlockNSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockNSObject.h; sourceTree = "<group>"; };
+		BD56929B21AF863600253724 /* BlockNSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockNSObject.m; sourceTree = "<group>"; };
+		BD56929E21AF8DAD00253724 /* StructViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructViewController.h; sourceTree = "<group>"; };
+		BD56929F21AF8DAD00253724 /* StructViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StructViewController.m; sourceTree = "<group>"; };
+		BD5692A121AF8DBF00253724 /* Struct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Struct; sourceTree = "<group>"; };
+		BD5692A321AF8E9200253724 /* Struct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Struct.h; sourceTree = "<group>"; };
+		BD5692A421AF8E9200253724 /* Struct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Struct.m; sourceTree = "<group>"; };
+		BD5692A721AFC03300253724 /* Object_NSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object_NSObject.h; sourceTree = "<group>"; };
+		BD5692A821AFC03300253724 /* Object_NSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object_NSObject.m; sourceTree = "<group>"; };
+		BD5692AA21AFC04700253724 /* Object_NSObject */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Object_NSObject; sourceTree = "<group>"; };
+		BD5692AC21B0DA8600253724 /* block示意图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block示意图.png"; sourceTree = "<group>"; };
+		BD5692AE21B0E33D00253724 /* block变量捕获.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block变量捕获.png"; sourceTree = "<group>"; };
+		BD5692B021B10D3900253724 /* block本质 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "block本质"; sourceTree = "<group>"; };
+		BD5692B221B10F8D00253724 /* block存储位置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block存储位置.png"; sourceTree = "<group>"; };
+		BD5692B421B1121B00253724 /* blcok类型判断.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blcok类型判断.png"; sourceTree = "<group>"; };
+		BD5692B621B1157E00253724 /* blockCopy后的类型转换.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blockCopy后的类型转换.png"; sourceTree = "<group>"; };
+		BD5692BB21B4D02300253724 /* RunloopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopViewController.h; sourceTree = "<group>"; };
+		BD5692BC21B4D02300253724 /* RunloopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopViewController.m; sourceTree = "<group>"; };
+		BD5692BE21B4D05900253724 /* runloop */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = runloop; sourceTree = "<group>"; };
+		BD5692D821B91A5700253724 /* runloop的管理方式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runloop的管理方式.png"; sourceTree = "<group>"; };
+		BD5692DA21B91AB900253724 /* runloop处理逻辑图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runloop处理逻辑图.png"; sourceTree = "<group>"; };
+		BD62E69221ACE14D009A22ED /* NSInvocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSInvocationViewController.h; sourceTree = "<group>"; };
+		BD62E69321ACE14D009A22ED /* NSInvocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSInvocationViewController.m; sourceTree = "<group>"; };
+		BD62E69D21ACEBB5009A22ED /* InvoPeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvoPeople.h; sourceTree = "<group>"; };
+		BD62E69E21ACEBB5009A22ED /* InvoPeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvoPeople.m; sourceTree = "<group>"; };
+		BD62E6A021ACF06F009A22ED /* NSInvocation */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSInvocation; sourceTree = "<group>"; };
+		BD62E6A321AD284E009A22ED /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		BD62E6A421AD284E009A22ED /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		BDB8AF8621C341BF00E95DFC /* SwizzMethondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzMethondViewController.h; sourceTree = "<group>"; };
+		BDB8AF8721C341BF00E95DFC /* SwizzMethondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzMethondViewController.m; sourceTree = "<group>"; };
+		BDB8AF8B21C3422400E95DFC /* Methond_people.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methond_people.h; sourceTree = "<group>"; };
+		BDB8AF8C21C3422400E95DFC /* Methond_people.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Methond_people.m; sourceTree = "<group>"; };
+		BDB8AF8E21C3575900E95DFC /* Methond_bind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methond_bind.h; sourceTree = "<group>"; };
+		BDB8AF8F21C3575900E95DFC /* Methond_bind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Methond_bind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +224,12 @@
 		A0812E4F1F5E432B00E0F51D /* LearningReview */ = {
 			isa = PBXGroup;
 			children = (
+				BD5692BA21B4CFF600253724 /* runloop底层原理 */,
+				BD5692A621AFC01500253724 /* 对象本质 */,
+				BD56929D21AF8D9D00253724 /* 结构体 */,
+				BD56929121AE2E1700253724 /* CGContextRef绘画 */,
+				BD62E6A221AD283A009A22ED /* block底层原理 */,
+				BD62E69121ACE138009A22ED /* 消息转发 */,
 				A0812EBA1F5FCB2C00E0F51D /* UIView动画 */,
 				A0812EA71F5EA6CF00E0F51D /* coreAnimation */,
 				A0812E531F5E432C00E0F51D /* AppDelegate.h */,
@@ -290,6 +364,105 @@
 			name = "UIView动画";
 			sourceTree = "<group>";
 		};
+		BD56929121AE2E1700253724 /* CGContextRef绘画 */ = {
+			isa = PBXGroup;
+			children = (
+				BD56929521AE2E7D00253724 /* CGContextRef */,
+				BD56929221AE2E6C00253724 /* CGContextRefViewController.h */,
+				BD56929321AE2E6C00253724 /* CGContextRefViewController.m */,
+				BD56929721AE3F9D00253724 /* CGContextView.h */,
+				BD56929821AE3F9D00253724 /* CGContextView.m */,
+			);
+			name = "CGContextRef绘画";
+			sourceTree = "<group>";
+		};
+		BD56929D21AF8D9D00253724 /* 结构体 */ = {
+			isa = PBXGroup;
+			children = (
+				BD5692A121AF8DBF00253724 /* Struct */,
+				BD56929E21AF8DAD00253724 /* StructViewController.h */,
+				BD56929F21AF8DAD00253724 /* StructViewController.m */,
+				BD5692A321AF8E9200253724 /* Struct.h */,
+				BD5692A421AF8E9200253724 /* Struct.m */,
+			);
+			name = "结构体";
+			sourceTree = "<group>";
+		};
+		BD5692A621AFC01500253724 /* 对象本质 */ = {
+			isa = PBXGroup;
+			children = (
+				BD5692AA21AFC04700253724 /* Object_NSObject */,
+				BD5692A721AFC03300253724 /* Object_NSObject.h */,
+				BD5692A821AFC03300253724 /* Object_NSObject.m */,
+			);
+			name = "对象本质";
+			sourceTree = "<group>";
+		};
+		BD5692BA21B4CFF600253724 /* runloop底层原理 */ = {
+			isa = PBXGroup;
+			children = (
+				BD5692D821B91A5700253724 /* runloop的管理方式.png */,
+				BD5692DA21B91AB900253724 /* runloop处理逻辑图.png */,
+				BD5692BE21B4D05900253724 /* runloop */,
+				BD5692BB21B4D02300253724 /* RunloopViewController.h */,
+				BD5692BC21B4D02300253724 /* RunloopViewController.m */,
+			);
+			name = "runloop底层原理";
+			sourceTree = "<group>";
+		};
+		BD62E69121ACE138009A22ED /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8AF8A21C341F400E95DFC /* NSinvocation */,
+				BDB8AF8921C341E900E95DFC /* methond */,
+			);
+			name = "消息转发";
+			sourceTree = "<group>";
+		};
+		BD62E6A221AD283A009A22ED /* block底层原理 */ = {
+			isa = PBXGroup;
+			children = (
+				BD5692B421B1121B00253724 /* blcok类型判断.png */,
+				BD5692B221B10F8D00253724 /* block存储位置.png */,
+				BD5692B021B10D3900253724 /* block本质 */,
+				BD5692AE21B0E33D00253724 /* block变量捕获.png */,
+				BD5692AC21B0DA8600253724 /* block示意图.png */,
+				BD5692B621B1157E00253724 /* blockCopy后的类型转换.png */,
+				BD62E6A321AD284E009A22ED /* BlockViewController.h */,
+				BD62E6A421AD284E009A22ED /* BlockViewController.m */,
+				BD56929A21AF863600253724 /* BlockNSObject.h */,
+				BD56929B21AF863600253724 /* BlockNSObject.m */,
+			);
+			name = "block底层原理";
+			sourceTree = "<group>";
+		};
+		BDB8AF8921C341E900E95DFC /* methond */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8AF8621C341BF00E95DFC /* SwizzMethondViewController.h */,
+				BDB8AF8721C341BF00E95DFC /* SwizzMethondViewController.m */,
+				BDB8AF8B21C3422400E95DFC /* Methond_people.h */,
+				BDB8AF8C21C3422400E95DFC /* Methond_people.m */,
+				BDB8AF8E21C3575900E95DFC /* Methond_bind.h */,
+				BDB8AF8F21C3575900E95DFC /* Methond_bind.m */,
+			);
+			name = methond;
+			sourceTree = "<group>";
+		};
+		BDB8AF8A21C341F400E95DFC /* NSinvocation */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E6A021ACF06F009A22ED /* NSInvocation */,
+				BD62E69221ACE14D009A22ED /* NSInvocationViewController.h */,
+				BD62E69321ACE14D009A22ED /* NSInvocationViewController.m */,
+				BD62E69D21ACEBB5009A22ED /* InvoPeople.h */,
+				BD62E69E21ACEBB5009A22ED /* InvoPeople.m */,
+				BD56928F21AE2A8800253724 /* NSObject+performSelector.h */,
+				BD56928E21AE2A8800253724 /* NSObject+performSelector.m */,
+			);
+			name = NSinvocation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -400,25 +573,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0812E881F5E439400E0F51D /* CoreAnimationViewController.xib in Resources */,
+				BD5692B721B1157E00253724 /* blockCopy后的类型转换.png in Resources */,
+				BD5692BF21B4D05900253724 /* runloop in Resources */,
 				A0812EB11F5F7DA600E0F51D /* CAAnimationGroup in Resources */,
 				A0812E8E1F5E89F300E0F51D /* CAKeyframeAnimationViewController.xib in Resources */,
 				A0812EA91F5EA6E700E0F51D /* coreAnimation in Resources */,
+				BD5692AF21B0E33D00253724 /* block变量捕获.png in Resources */,
 				A0812EB71F5FC7F200E0F51D /* CATransactionViewController.xib in Resources */,
 				A0812E9C1F5E9E5200E0F51D /* text.png in Resources */,
 				A0812E901F5E8DD600E0F51D /* CABasicAnimation in Resources */,
 				A0812E601F5E432C00E0F51D /* LaunchScreen.storyboard in Resources */,
 				A0812EC11F5FCB7500E0F51D /* UIViewAnimation in Resources */,
 				A0812E921F5E8E5C00E0F51D /* CAKeyframeAnimation in Resources */,
+				BD5692B521B1121B00253724 /* blcok类型判断.png in Resources */,
 				A0812E981F5E97C900E0F51D /* CATransitionViewController.xib in Resources */,
+				BD5692AD21B0DA8600253724 /* block示意图.png in Resources */,
+				BD5692B121B10D3A00253724 /* block本质 in Resources */,
+				BD56929621AE2E7D00253724 /* CGContextRef in Resources */,
 				A0812E9E1F5E9ED200E0F51D /* watermark.png in Resources */,
 				A0812EA61F5EA1D000E0F51D /* CASpringAnimation in Resources */,
 				A0812E9A1F5E97D400E0F51D /* CATransition in Resources */,
 				A0812E5D1F5E432C00E0F51D /* Assets.xcassets in Resources */,
+				BD5692AB21AFC04700253724 /* Object_NSObject in Resources */,
 				A0812EA41F5EA1C400E0F51D /* CASpringAnimationViewController.xib in Resources */,
 				A0812EAF1F5F7D9500E0F51D /* CAAnimationGroupViewController.xib in Resources */,
 				A0812EBF1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.xib in Resources */,
+				BD5692DB21B91AB900253724 /* runloop处理逻辑图.png in Resources */,
 				A0812E5B1F5E432C00E0F51D /* Main.storyboard in Resources */,
+				BD62E6A121ACF06F009A22ED /* NSInvocation in Resources */,
+				BD5692B321B10F8D00253724 /* block存储位置.png in Resources */,
 				A0812EB91F5FC80300E0F51D /* CATransaction in Resources */,
+				BD5692D921B91A5700253724 /* runloop的管理方式.png in Resources */,
+				BD5692A221AF8DBF00253724 /* Struct in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,16 +629,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD62E69F21ACEBB5009A22ED /* InvoPeople.m in Sources */,
 				A0812EB61F5FC7F200E0F51D /* CATransactionViewController.m in Sources */,
+				BD5692A521AF8E9200253724 /* Struct.m in Sources */,
+				BD56929021AE2A8800253724 /* NSObject+performSelector.m in Sources */,
+				BDB8AF9021C3575900E95DFC /* Methond_bind.m in Sources */,
 				A0812E871F5E439400E0F51D /* CoreAnimationViewController.m in Sources */,
+				BD56929921AE3F9D00253724 /* CGContextView.m in Sources */,
 				A0812E581F5E432C00E0F51D /* ViewController.m in Sources */,
+				BD62E6A521AD284E009A22ED /* BlockViewController.m in Sources */,
+				BD56929421AE2E6C00253724 /* CGContextRefViewController.m in Sources */,
 				A0812E551F5E432C00E0F51D /* AppDelegate.m in Sources */,
+				BDB8AF8D21C3422400E95DFC /* Methond_people.m in Sources */,
+				BDB8AF8821C341BF00E95DFC /* SwizzMethondViewController.m in Sources */,
 				A0812E8D1F5E89F300E0F51D /* CAKeyframeAnimationViewController.m in Sources */,
 				A0812E521F5E432C00E0F51D /* main.m in Sources */,
+				BD62E69421ACE14D009A22ED /* NSInvocationViewController.m in Sources */,
 				A0812E971F5E97C900E0F51D /* CATransitionViewController.m in Sources */,
 				A0812EAE1F5F7D9500E0F51D /* CAAnimationGroupViewController.m in Sources */,
 				A0812EA31F5EA1C400E0F51D /* CASpringAnimationViewController.m in Sources */,
+				BD5692A021AF8DAD00253724 /* StructViewController.m in Sources */,
 				A0812EBE1F5FCB5F00E0F51D /* UIViewCoreAnimationViewController.m in Sources */,
+				BD5692A921AFC03300253724 /* Object_NSObject.m in Sources */,
+				BD56929C21AF863600253724 /* BlockNSObject.m in Sources */,
+				BD5692BD21B4D02300253724 /* RunloopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
